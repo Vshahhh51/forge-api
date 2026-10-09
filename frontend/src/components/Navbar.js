@@ -69,7 +69,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="https://github.com/ksavalia21/forge-api"
+                href="https://github.com/Vshahhh51/forge-api"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-github"
