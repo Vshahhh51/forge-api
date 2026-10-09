@@ -19,22 +19,20 @@ function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
 
-    // Close menu when location changes
-    closeMenu();
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [location, isMenuOpen]);
+  }, []);
+
+  // Close menu when location changes
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location]);
 
   return (
     <nav className={`navbar ${isScrolled ? "scrolled" : ""}`}>
