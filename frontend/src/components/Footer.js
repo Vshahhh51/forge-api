@@ -42,7 +42,7 @@ function Footer() {
             <ul>
               <li>
                 <a
-                  href="https://github.com/ksavalia21/forge-api"
+                  href="https://github.com/Vshahhh51/forge-api"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -51,7 +51,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/ksavalia21/forge-api/issues"
+                  href="https://github.com/Vshahhh51/forge-api/issues"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -60,7 +60,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/ksavalia21/forge-api/blob/main/README.md"
+                  href="https://github.com/Vshahhh51/forge-api/blob/main/README.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -75,17 +75,7 @@ function Footer() {
             <ul className="social-links">
               <li>
                 <a
-                  href="https://www.linkedin.com/in/keyursavalia/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="fab fa-linkedin"></i>
-                  <span>LinkedIn</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/ksavalia21/forge-api"
+                  href="https://github.com/Vshahhh51/forge-api"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -102,12 +92,12 @@ function Footer() {
             &copy; {currentYear} Forge API | Created with{" "}
             <i className="fas fa-heart" style={{ color: "#ff5722" }}></i> by
             <a
-              href="https://keyursavalia.com/"
+              href="https://github.com/Vshahhh51"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
-              Keyur Savalia
+              Vihaan Shah
             </a>
           </p>
         </div>
